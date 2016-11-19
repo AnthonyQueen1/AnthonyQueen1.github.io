@@ -1,9 +1,22 @@
+header, h1, h2, h3, h4, h5, h6, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 body {
     background-color: #f9f9f9;
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
     color: #222;
     font-style: normal;
     font-weight: 400;
+    height: 100%;
+    position: relative;
 }
 
 .path a {
@@ -14,6 +27,10 @@ body {
 
 header, footer {
     background-color: #e5e5e5;
+}
+
+header {
+    display: block;
 }
 
 h1 a:hover {
@@ -40,20 +57,10 @@ a {
     width:100%;
 }
 
-header {
-    display: block;
-}
 
 section.text {
     max-width: 44rem;
     width: 100%;
 }
 
-header, h1, h2, h3, h4, h5, h6, a {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+
