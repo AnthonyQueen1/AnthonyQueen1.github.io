@@ -49,17 +49,17 @@ a {
 .content {
     margin: 0 auto;
     max-width: 74rem;
-    padding: 6rem 4rem;
+    padding: 6rem 0rem;
     width:100%;
 }
 
 
 .text {
-    max-width: 44rem;
+    max-width: 65rem;
     width: 100%;
 }
 
 h1, h2 {
-    font-size: large;
+    font-size: 1.8rem;
 }
 
