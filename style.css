@@ -1,0 +1,72 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    position: relative;
+}
+
+.path a {
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-color .3s ease;
+    transition: border-color .3s ease;
+}
+
+header{
+    background-color: #e5e5e5;
+}
+
+header {
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom-color: #222;
+    border-bottom: 2px solid #222;
+    color: #222;
+}
+
+a {
+    font:inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.path .slash {
+    padding: 0 .5rem;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 74rem;
+    padding: 6rem 0rem;
+    width:100%;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+
+.text {
+    max-width: 65rem;
+    width: 100%;
+}
+
+h1, h2 {
+    font-size: 1.8rem;
+}
+
