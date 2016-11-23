@@ -43,6 +43,11 @@ a {
     padding: 0 .5rem;
 }
 
+.slash2x {
+    padding: 0 3rem;
+    font-size: 3rem;
+}
+
 .content {
     margin: 0 auto;
     max-width: 74rem;
@@ -61,6 +66,12 @@ a {
   text-align: center;
 }
 
+.footer a:hover {
+    border-bottom: 2px solid transparent;
+    color: #696969;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
 
 .text {
     max-width: 65rem;
