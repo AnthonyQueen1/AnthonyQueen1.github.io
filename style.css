@@ -77,8 +77,10 @@ a {
     max-width: 65rem;
     width: 100%;
 }
-
-h1, h2 {
-    font-size: 1.8rem;
+h1{
+    font-size: 2.5rem;
 }
 
+h2{
+    font-size: 1.8rem;
+}
