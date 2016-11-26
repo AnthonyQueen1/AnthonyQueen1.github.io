@@ -40,7 +40,7 @@ a {
 }
 
 .path .slash {
-    padding: 0 .5rem;
+    padding: 0 1rem;
 }
 
 .slash2x {
@@ -74,14 +74,18 @@ a {
 }
 
 .text {
-    max-width: 65rem;
+    max-width: 50rem;
     width: 100%;
+    padding-bottom: 2.5rem;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h2{
-    font-size: 1.8rem;
-    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
