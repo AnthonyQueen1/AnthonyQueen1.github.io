@@ -3,6 +3,8 @@
     <title>Anthony Queen</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -33,6 +35,17 @@
             <a href="/">Projects</a>
         </h2>
         <div class="row">
+            <div class="col-md-4">
+                <h3>UGA Calendar App</h3>
+                <div class="thumbnail">
+                    <a href="https://github.com/AnthonyQueen1/TestAssignment" target="_blank">
+                        <img src="pics/calapp.png" class="img-thumbnail"></img>
+                        <div class="caption">
+                            <p>Android App for UGA events</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
             <div class="col-md-4">
                 <h3>Personal Website</h3>
                 <div class="thumbnail">
@@ -70,15 +83,21 @@
     </div>
   
     <div class="footer">
-        <a class="fa fa-envelope fa-2x" aria-hidden="true" href="mailto:arq17138@uga.edu"></a>
+        <a class="fa fa-envelope fa-2x" data-toggle="tooltip" title="email"  aria-hidden="true" href="mailto:arq17138@uga.edu"></a>
         <span class="slash2x">/</span>
-        <a class="fa fa-github fa-2x" aria-hidden="true" href="https://github.com/AnthonyQueen1"></a>
+        <a class="fa fa-github fa-2x" data-toggle="tooltip" title="github"  aria-hidden="true" href="https://github.com/AnthonyQueen1"></a>
         <span class="slash2x">/</span>
-        <a class="fa fa-spotify fa-2x" aria-hidden="true" href="https://open.spotify.com/user/anthonyqueen1"></a> 
+        <a class="fa fa-spotify fa-2x" data-toggle="tooltip" title="spotify"  aria-hidden="true" href="https://open.spotify.com/user/anthonyqueen1"></a> 
         <span class="slash2x">/</span>
-        <a class="fa fa-file-o fa-2x" aria-hidden="true" href="pics/AnthonyQueen.pdf"></a> 
+        <a class="fa fa-file-o fa-2x" data-toggle="tooltip" title="resume" aria-hidden="true" href="pics/AnthonyQueen.pdf"></a> 
 
     </div>
 </body>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 
 </html>
