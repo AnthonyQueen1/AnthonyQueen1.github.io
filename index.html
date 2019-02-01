@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<head>
+  <meta charset="utf-8">
+  <title>Queen Wedding</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
 <style>
 body,h1,h2{font-family: "Raleway", sans-serif}
 body, html {height: 100%}
@@ -14,38 +25,41 @@ p {line-height: 2}
   background-position: center;
   background-size: cover;
 }
-.bgimg {background-image: url("/w3images/wedding_couple.jpg")}
-.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+.bgimg {background-image: url("images/home.jpg")}
+.bgimg2 {background-image: url("images/invite.jpg")}
+.bgimg3 {background-image: url("images/venue.jpg")}
 </style>
 <body>
 
 <!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+<header class="w3-display-container w3-wide bgimg" id="home">
   <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">Jane & John</h1>
-    <h2>Are getting married</h2>
-    <h2><b>17.07.2017</b></h2>
+    <h1 class="w3-jumbo">Anthony & Sherry</h1>
+    <h2>Are Getting Married</h2>
+    <h2><b>05.30.2020</b></h2>
   </div>
 </header>
 
 <!-- Navbar (sticky bottom) -->
-<div class="w3-bottom w3-hide-small">
-  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Jane & John</a>
-    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
-    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding-small w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:15%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:15%" class="w3-bar-item w3-button">Anthony & Sherry</a>
+    <a href="#wedding" style="width:15%" class="w3-bar-item w3-button">Wedding</a>
+    <a href="#Things_To_Do" style="width:15%" class="w3-bar-item w3-button">Things To Do</a>
+    <a href="#Registry" style="width:15%" class="w3-bar-item w3-button">Registry</a>
+    <a href="#rsvp" style="width:15%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
   </div>
 </div>
 
-<!-- About / Jane And John -->
+<!-- About / Anthony And Sherry -->
 <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
   <div class="w3-content">
-    <h1 class="w3-center w3-text-grey"><b>Jane & John</b></h1>
-    <img class="w3-round w3-grayscale-min" src="/w3images/wedding_couple2.jpg" style="width:100%;margin:32px 0">
-    <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.</i>
+    <h1 class="w3-center w3-text-grey"><b>Anthony & Sherry</b></h1>
+    <h2>Her side</h2>
+        <p>I was head over heels the first time I saw Anthony January of 2014. I wooed him over with my pick up lines and four months later we went to our first concert together. We made our relationship official on June 15, 2014. Over the course of four years, we have . On November 7, 2018 Anthony asked me to spend the rest of our lives together.</p>
+    <h2>His side</h2>
+        <p>I met Sherry through my friend Josh. Josh was driving to Athens to visit his girlfriend, Hannah, and I asked if I could tag along. Sherry was roommates with Hannah and we all played Apples to Apples Junior together. A few weeks later Josh shows me a screenshot of a message Sherry sent to Hannah for Josh to relay to me of some amazing pick up lines. Exeamples include, "Are you a can of Campbell's Chicken Noodle Soup? Because you are mmm mmm good!" and "If you were a fruit you'd be a fineapple." Naturally I swooned at these super smooth pick up lines.</p>
     </p><br>
     <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
   </div>
@@ -53,9 +67,8 @@ p {line-height: 2}
 
 <!-- Background photo -->
 <div class="w3-display-container bgimg2">
-  <div class="w3-display-middle w3-text-white w3-center">
+  <div class="w3-display-bottommiddle w3-text-white w3-center">
     <h1 class="w3-jumbo">You Are Invited</h1><br>
-    <h2>Of course..</h2>
   </div>
 </div>
 
@@ -63,17 +76,60 @@ p {line-height: 2}
 <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
   <div class="w3-content">
     <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
-    <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0">
+    <img class="w3-round-large w3-min" src="images/venue.jpg" style="width:45%;margin:64px 0">
     <div class="w3-row">
       <div class="w3-half">
         <h2>When</h2>
-        <p>Wedding Ceremony - 2:00pm</p>
-        <p>Reception & Dinner - 5:00pm</p>
+        <p>Wedding Ceremony - May 30, 2020 at 4:30 pm</p>
+        <p>Reception & Dinner to follow</p>
       </div>
       <div class="w3-half">
         <h2>Where</h2>
         <p>Some place, an address</p>
-        <p>Some where, some address</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Things To Do -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="Things_To_Do">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>THINGS TO DO</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-third">
+        <h2>Accommodations</h2>
+        <p>Hilton</p>
+        <p>Marriott</p>
+      </div>
+      <div class="w3-third">
+        <h2>Where to eat</h2>
+        <p>Wjhbjb</p>
+        <p>Thejhbb</p>
+        <p>Tihb</p>
+        <p>Tihb</p>
+        <p>Tihb</p>
+        <p>Tihb</p>
+        <p>Tihb</p>
+      </div>
+      <div class="w3-third">
+        <h2>Things to do</h2>
+        <p>uyguyk</p>
+        <p>The World of Coke</p>
+        <p>The Georgia Aquarium</p>
+        <p>Tihb</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Registry information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="Registry">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>REGISTRY</b></h1>
+    <div class="w3-row">
+      <div class="w3">
+        <p class="w3-large">Due to our small living quaters in Manhattan, we do not have the room for gifts. However, we would love and appreciate any donation towards our honeymoon.</p>
       </div>
     </div>
   </div>
@@ -81,8 +137,8 @@ p {line-height: 2}
 
 <!-- RSVP section -->
 <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
-  <h1>HOPE YOU CAN MAKE IT!</h1>
-  <p class="w3-large">Kindly Respond By January, 2017</p>
+  <h1>WE HOPE YOU CAN MAKE IT!</h1>
+  <p class="w3-large">Kindly Respond By March 29, 2020</p>
   <p class="w3-xlarge">
     <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
   </p>
@@ -97,7 +153,7 @@ p {line-height: 2}
       <form>
         <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
       </form>
-      <p><i>Sincerely, John & Jane</i></p>
+      <p><i>Sincerely, Sherry & Anthony</i></p>
       <div class="w3-row">
         <div class="w3-half">
           <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
@@ -112,9 +168,9 @@ p {line-height: 2}
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>#SherrySaysYasQueen</p>
 </footer>
-<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+<div class="w3-hide-small" style="margin-bottom:32px"></div>
 
 </body>
 </html>
